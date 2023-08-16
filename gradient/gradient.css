@@ -1,0 +1,35 @@
+div[class*="linear-gradient"]{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 8%;
+    padding: 6px;
+    margin: 2px;
+    background-image: linear-gradient(to top right,blue,white);
+    background-image: linear-gradient(90deg ,blue,white);
+    background-image: linear-gradient(to right, rgba(200,200,7,0.5),rgb(200,20,7,1),rgb(57, 33, 33),rgb(155, 133, 133));
+}
+div[class*="radial-gradient"]{
+    width: 150px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 8%;
+    padding: 6px;
+    margin: 2px;
+    background-image: radial-gradient( rgb(245, 207, 207),rgb(73, 73, 88),rgb(0,0,0));
+    background-image: radial-gradient(circle, rgb(245, 207, 207),rgb(73, 73, 88),rgb(0,0,0));
+    background-image: radial-gradient(circle, yellow 25%, orange 65%, red);
+}
+div[class*="conic-gradient"]{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 8%;
+    padding: 6px;
+    margin: 2px;
+    /* syntax: bcgd-img: conic gradient([from angle],[AT POS],color[deg],color[deg])*/
+    background-image: conic-gradient( 
+        red 18deg, orange 28deg 45deg, yellow 65deg 90deg, 
+        green 110deg 180deg, blue 200deg 250deg,black 290deg 330deg, red);
+    
+}   
