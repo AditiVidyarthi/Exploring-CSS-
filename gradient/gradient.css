@@ -1,4 +1,4 @@
-div[class*="linear-gradient"]{
+div[class="linear-gradient"]{
     width: 150px;
     height: 150px;
     border: 2px solid black;
