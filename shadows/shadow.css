@@ -1,0 +1,24 @@
+.text{
+    width: 150px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 8%;
+    padding: 6px;
+    margin: 2px;
+    text-shadow: 2px 2px 1px red; /* width height blur color*/
+    text-shadow: 2px 2px 1px red, 4px 4px 2px yellow, 6px 6px 3px green;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    padding: 6px;
+    margin: 12px;
+    background-color: burlywood;
+    box-shadow: 2px 2px,4px -4px green;/* no color ~ same as text color */
+    box-shadow: 10px 10px,-10px -10px;
+    box-shadow: 2px 0 0 0 black; /*right*/
+    box-shadow: -2px 0 0 0 black; /*left*/
+    box-shadow: 0 2px 0 0 black; /*bottom*/
+    box-shadow: 0 -2px 0 0 black; /*top*/
+    box-shadow: 0 0 0 2px black; /*all the sides*/
+}
